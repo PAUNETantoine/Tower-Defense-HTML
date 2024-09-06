@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../images/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Tower Defense - Overworld</title>
+    <link rel="stylesheet" href="overworld-css.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+    <p id="Coordo">X=0 y= 0</p>
+
+    <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200" id="start">                            </button>
+    <br>
+</head>
+<body>
+        </div>
+        <div id="relative">
+            <scoreboard class="scoreboard">
+                <p class="scoreboardE"><img src="./././images/logo.png" width="400px"></p>
+                <p class="scoreboardE" id="Vagues">Waves :</p>
+                <p class="scoreboardE">HP:   <canvas width="320px" height="32px" id="HP">   </canvas></p>
+                <p class="scoreboardE" id="mobsRestant"><img src="./images/mob.png" class="imgBorder"><a id="mobsEnTout">  : 0</a></p>
+                <p class="scoreboardE"><img src="./images/wood.png" class="imgBorder"><a id="nbPlanche">   : 0</a></p>
+                <p class="scoreboardE" id="nextWave">Next wave: <a id="chrono">Waiting for start</a></p>
+            </scoreboard>
+        </div>
+        <br></br>
+        <div>
+            <canvas height="832px" width="832px" id="canvas"></canvas>
+        </div>
+        <div>
+            <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200" id="menu">Main Menu</button>
+        </div>
+    </div>
+</body>
+<script src="overworld-js.js"></script>
+</html>
